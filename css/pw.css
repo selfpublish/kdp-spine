@@ -1,0 +1,144 @@
+/**
+Pubwriter CSS file
+*/
+@import url(//fonts.googleapis.com/css?family=Raleway);
+
+h1, h2, h3, h4, h5, h6, p, a, div {
+    font-family: "Raleway";
+}
+
+body {
+    background: url(http://pubwriter.com/images/net.jpg);
+}
+
+/* Don't print link hrefs */
+@media print {
+    a[href]:after {
+        content: none;
+    }
+}
+
+/* Main PubWriter styles */
+.pubwriter {
+    margin: 5rem 0 2rem;
+    padding: 1rem 3rem;
+    border: 1px solid #0002;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: #fff;
+    border-radius: .6rem;
+}
+
+/* Default to centering header text */
+.pubwriter h1 {
+    text-align: center;
+}
+
+/* Increase font size of bulleted and numbered lists */
+.pubwriter li {
+    font-size: 1.1rem;
+}
+
+/* Make font larger and increase default spacing */
+.pubwriter p {
+    font-size: 1.2rem;
+    line-height: 1.7em;
+}
+
+/* Make the default line break darker */
+.pubwriter hr {
+    border-color: #d5d5d5;
+}
+
+/* Make All Images Respnosive */
+.pubwriter img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Responsive embedded videos */
+.pubwriter .video-container {
+    position: relative;
+    padding-bottom: 25em;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+/* Responsive embedded videos */
+.pubwriter .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*height: 100%*/
+}
+
+/* Blockquotes */
+.pubwriter blockquote {
+    display: block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+    
+    /*Font*/
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+    text-align: justify;
+    
+    /*Borders - (Optional)*/
+    border-left: 10px solid #27a2d5;
+    border-right: 10px solid #27a2d5;
+    
+    /*Box Shadow - (Optional)*/
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+}
+
+.pubwriter blockquote::before {
+    content: "\201C"; /*Unicode for Left Double Quote*/
+    
+    /*Font*/
+    font-family: Georgia, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000;
+    
+    /*Positioning*/
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.pubwriter blockquote::after {
+    /*Reset to make sure*/
+    content: "";
+}
+
+.pubwriter blockquote a {
+    text-decoration: none;
+    background: #fff;
+    cursor: pointer;
+    padding: 0 3px;
+    color: #27a2d5;
+}
+
+.pubwriter blockquote a:hover {
+    color: #666;
+}
+
+.pubwriter blockquote em {
+    font-style: italic;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    /* Make font normal size on mobile */
+    .pubwriter p {
+        font-size: 1rem;
+    }
+}
