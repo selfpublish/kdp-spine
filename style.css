@@ -1,0 +1,25 @@
+/* start global */ 
+
+body {
+    background-color: #F7F9FB;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #355773;
+    text-align: center;
+}
+
+
+
+
+/* end global */
+
+/* start form */
+
+div {
+    border: 1px solid #355773;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* End form */
