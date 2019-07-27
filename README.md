@@ -13,3 +13,5 @@ AMT * 0.0635 // mm (cream paper)
 AMT * 0.002252 // inches (white paper)
 
 AMT * 0.0572 // mm (white paper)
+
+Check your calculations [here](https://instacalc.com/52860).
