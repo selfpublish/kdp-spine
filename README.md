@@ -6,4 +6,12 @@ You simply input the page count and it calculate the text size in inches & mm fo
 
 NOTE: Spine text is only supported on books over 100 pages. Text on larger spines must be sized to fit the spine, with at least 0.0625" (1.6 mm) of space between the text and the edge of the spine.
 
+If you want to double check the calcs, here are two resources:
+
+* [KDP Spine Text Specs](https://kdp.amazon.com/en_US/help/topic/G201857950#spinetext)
+* [InstaCalc](https://instacalc.com/52860)
+  
+You can view the live page of this repo [here](https://selfpublish.github.io/kdp-spine/).
+
+~ Brian
 
