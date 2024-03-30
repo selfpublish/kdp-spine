@@ -1,6 +1,6 @@
-# KDP Spine Text Width Calculator
+# KDP Spine **Text** Width Calculator
 
-The purpose of this web app is to provide a cover designer with guidelines on limits for text on the spine.
+The purpose of this web app is to provide a cover designer with guidelines on limits for text on the spine. *Note: This is not a spine width calculator.* Instead, it provides guidelines on how much text you can put on the spine.
 
 You simply input the page count and it calculate the text size in inches & mm for both cream and white paper options (the author will need to specify one or the other).
 
